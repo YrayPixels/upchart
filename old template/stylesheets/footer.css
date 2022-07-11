@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-container {
+    background-color: #000;
+    padding: 2rem 0 4rem 0;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: #111010be;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    padding: 2rem 0;
+}
+
+.footer-heading #footer_head {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    
+}
+
+.footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.6rem;
+}
+
+.footer-heading a:hover {
+    color: #fe6603;
+    transition: 0.3s ease-out;
+}
+
+.footer_email{
+    padding-top: 1rem;
+}
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    padding-left: 0,5rem; 
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+   color: #b1b1b1; 
+}
+
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #fe6603;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#footer-email-btn:hover {
+    cursor: pointer;
+    background-color: #fe6603;
+    transition: all 0.4s ease-out;
+}
+
+@media screen and (mas-width: 1150px) {
+    .footer {
+        height: 50vh;
+    }
+.footer-email-form {
+    margin-top: 4rem;
+  }
+
+}
+
+@media screen and (mas-width: 820px) {
+    .footer {
+    padding-top: 2rem;
+  }
+
+}
+
+@media screen and (mas-width: 720px) {
+    .footer-3 {
+        display: none;
+    }
+.footer-email-form {
+    margin-top: 2rem;
+  }
+
+}
+
+.copyright{
+    text-align: center;
+    font-family: 'poppin' sans-serif;
+    color: white;
+    margin: 0 12px;
+    font-size: 100%;
+}
+
+.webes{
+    color: #fff;
+    font-size: 10px;
+    padding: 5%;
+    text-align:left;
+}

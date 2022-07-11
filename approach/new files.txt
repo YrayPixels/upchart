@@ -1,0 +1,59 @@
+the copy for the page
+
+
+i intend to use 
+
+Trading is Journey
+We want to be part of your Journey
+
+Start your trading journey with reliable funding and maximize your potential
+with your needs and your level of experience in view, a selection of packageshave been prepared just for you.
+These options have been specifically branded to your trading essentials, providing reliable
+capitalization to kick-start your journey.
+To access these packages, pass our challenges for evaluation and get started on your journey
+
+
+
+Copyright 2022 Upchartfunding.com
+
+
+      <p>Upchartfunding does not directly solicit customers. People who register for our programs do so at their own
+        volition.
+        Upchartfunding does not take into consideration your personal financial situation. If you require financial
+        advice, it is recommended that you speak to a financial adviser or licensed professional.
+        Upchartfunding does not act as or conduct services as a broker.
+        <br>Upchartfunding does not act as or conduct services as a custodian.
+        <br>
+        Purchases of programs should not be considered deposits. All program fees are used for operation costs
+        including, but not limited to, staff, technology and other business related expenses.
+
+
+<div class="footer-container">
+    <div class="footer">
+     
+      
+      
+
+      </div>
+      <div class="footer-email-form">
+        <p id="footer_head">Join our newsletter</p>
+        <input type="email" placeholder="Enter your email address" id="footer-email">
+        <input type="submit" value="Sign Up" id="footer-email-btn" href="contact@upchartfunding.com">
+      </div>
+
+   
+   <div id="maintxt"> <br>
+      <h2><strong><span>Define Your Journey</span></strong>
+      </h2>
+      <p class="titletxt"> At Upchartfunding, We seek to mobilize your trading process with one key factor: Financing.
+        We prioritize your success and have provided a list of packages each, option optimizing your level of
+        experience.
+        will be required to complete our various challenges which will qualify them for our services.
+        Look into our multiple options and carefully select a package that align with your TRADING needs and experience
+        to get started</p>
+      </p>
+
+      <div class="price-container"><br>
+        <div class="price-row">
+          
+        </div>

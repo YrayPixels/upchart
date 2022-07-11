@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poopins',sans-serif;
+}
+.account_main{
+    padding: 2% 5% 2% 4%;
+    background-color:rgba(0, 0, 0, 0.578);
+    border-radius: 5px;
+}
+.main_details{
+    font-size: 12px;
+}
+.account_details{
+    width:100%;
+    padding: 5% 5%;
+    background-image:url(/images/fx.png);
+    background-attachment: fixed;
+    text-align: center;
+    min-height:50%;
+    color:white;    
+}
+.account_header{
+    padding: 1rem;
+    font-size:24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rules_container{
+    width: 100%;
+    padding: 10% 5%;
+    
+}
+.rules_header{
+    padding: 1rem;
+    font-size:14px;
+    font-family: sans-serif;
+    text-transform:capitalize;
+    text-align: center;
+}
+
+.num{
+    margin-left:46%;
+    padding:10px;
+    color: #fe6603;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #fe6603 ;
+}
+
+.rules-row{
+    font-size: 12px;
+    background-color: #ffffff;
+    padding: 10% 15%;
+    border-radius: 10px;
+    border:;
+    color: rgb(0, 0, 0);
+    box-shadow:0px 0px 20px 1px #fe67032f;
+    text-align: center;
+   
+}
+.rules-col{
+    font-size: 12px;
+    padding-top: 5%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.account_tables{
+    font-size: 12px;
+    margin:2rem;
+    padding:8px;
+}
+table {
+    font-family: sans-serif;
+    width:100%;
+}
+  
+.tbhd{
+    font-size: 12px;
+    color: #ffffff;
+    background-color:#fe6603;
+    border-radius:3px;
+      
+
+  }
+  td, th,tr {
+    border-spacing: 30px;
+    text-align:center;
+    padding:10px;
+ }
+  .tbutton{
+    font-size: 10px;
+    width:100%;
+    padding: 5px;
+    background: none;
+    border:1px solid #fe6603;
+    border-radius: 5px;
+  }
+ tr:nth-child(even) {
+    background-color:#eabea1;
+  }
+  .faq{
+    background-image: url(/images/fx.png);
+  }
+  

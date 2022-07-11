@@ -1,0 +1,262 @@
+.productcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  }
+.productcardhead{
+  font-weight: bold;
+  font-size: 30px;
+}
+.productprice {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.productcard button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #fe6603;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.productcard button:hover {
+  background-color: #c25004;
+}
+.carttable{
+  font-size: 14px;
+  text-align: left;
+  padding:4%;
+  width:fit-content;
+  margin: auto;
+  box-shadow: 0px 0px 8px 0px;
+}
+
+th{
+  color:white;
+  background-color: #fe6603;
+  margin:20px;
+  padding:5px;
+}
+.quant input{
+  width:50px;
+  height: 20px;
+}
+.quant{
+  padding: 4%;
+  display: flex;}
+
+.remBtn{
+  border: none;
+  outline: 0;
+  margin:4px;
+  padding: 4%;
+  color: white;
+  background-color: #fe2903;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 12px;
+}
+.purBtn button{
+  border: none;
+  outline: 0;
+  padding: 2%;
+  color: white;
+  background-color: #fe6603;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+}
+
+.cart-column {
+  display:content;
+  width: auto;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding:10px ;
+  margin-top: 15px;;
+}
+
+.cartcontainer {
+  width:fit-content;
+  height:fit-content;
+  margin: auto;
+  background-color: #f2f2f2;
+  padding-left:20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+.cart-col-title{
+  width:auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size:auto;
+  font-weight: bold;
+}
+
+.cart-row {
+ display:flex;
+}
+.cart-item {
+  text-align: left;
+  width:auto;
+}
+.cart-price {
+  font-weight: bold;
+  width:auto;
+  font-size: 1.2em;
+  color: #333;
+}
+.cart-quantity {
+  display: flex;
+  width:auto;
+}
+.cart-item-title {
+  width:auto;
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+.cart-quantity-input {
+  height: 34px;
+  width:50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align:end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.btn-purchase {
+  border:none;
+  box-shadow: 0px 0px 5px 0px;
+  display: block;
+  padding: 10px;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+}
+.checkout {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 0px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .checkoutcontainer {
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .checkerbtn {
+    background-color: #fe6603;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .checkerbtn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }

@@ -1,0 +1,253 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poopins', sans-serif;
+}
+.title-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+#maintxt {
+    background: url("/images/background\ 1.png") no-repeat fixed;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(50, 70, 80, 0.7);
+    background-blend-mode: soft-light;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.titletxt {
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 3%;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 100%;
+    color: rgb(255, 251, 251);
+    text-align: center;
+    margin: 3%;
+
+}
+
+.price-container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    min-height: 100%;
+}
+
+.container h2 {
+    color: #fff;
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.price-row {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.price-col {
+    padding: 10% 15%;
+    border: 0;
+    margin: 2%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-width: 20rem;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+}
+
+.price-col h4 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 3%;
+}
+
+.price-col:hover {
+    background: #fe6603;
+    color: white;
+}
+
+.price-col h4 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 3%;
+
+}
+#textinbox{
+    font-size:1rem;
+}
+
+.price-col p {
+    font-size: 20px;
+}
+
+.price-col h3 {
+    font-size: 20px;
+    margin: 20p 0 40px
+}
+
+.price-col h3 ul {
+    text-align: left;
+    margin: 20px 0;
+    color: #fe6603;
+    list-style: none;
+}
+
+.price-col ul li {
+    margin: 15px 0;
+    text-align:left;
+    font-size:smaller;
+    font-family:sans-serif;
+}
+
+.price-col ul li:: before {
+    content: '\2022';
+    color: #fe6603;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.price-col .btn {
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #fe6603);
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+
+.price-col .btn:hover {
+    background: #ffffff;
+    color: black;
+}
+
+.headerlog{
+  margin:none;
+  width: 100%;
+  height:100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;;
+}
+/* Bordered form */
+form {
+  box-shadow: 0px 0px 10px 0px #fe6603;
+  font-size: 12px;
+    width:50%;
+    float:none;
+    margin: auto;
+    height: fit-content;
+   border-radius:20px;
+   padding: 5% 2%;
+   
+  }
+
+    /* Add padding to containers */
+  .signup {
+    padding:10% 5%;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: rgb(120, 116, 116);
+    outline: none;
+  }
+  
+  
+  /* Set a style for all buttons */
+  button {
+    background-color:#fe6603;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #151212;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float:left;
+    border-radius: 20px;
+    width: 50%;
+  }
+  
+   /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

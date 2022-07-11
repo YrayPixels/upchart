@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poopins',sans-serif;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background:none;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#fe6703ae;
+    min-width: 160px;
+    font-size: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(0, 0, 0)}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}  
+
+.container{
+    width: 100%;
+    height:40em;
+    background-image: url(/images/background\ 1.png);
+    background-position:center;
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 0 5%;
+    color: #fff;
+}
+.package_container{
+    width: 100%;
+    height:auto;
+    background-image: url(/images/background\ 1.png);
+    background-position:center;
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 0 5%;
+    color: #fff;
+}
+.package_content{
+    padding:5% 5%;
+    width:auto;
+    font-weight: bold;
+    text-align: center;
+    font-size:3rem;
+
+}
+
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 170px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+nav  .btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+
+.content {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.content h3 span {
+    color: #fe6603;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content p {
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.content .btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+content .btn:hover {
+    background: #fe6603;
+}

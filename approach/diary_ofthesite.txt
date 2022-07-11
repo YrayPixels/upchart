@@ -1,0 +1,26 @@
+10 july {
+    i started around 1 am, i was able to finish the home page, this included the nav bar, landing, and the footer
+    i am begining to grap the css framework called bootstrap. it is actually easy, i tried downloading node js, but it didnt 
+    work.
+
+    probable task for tomorrow or later in the day.
+    i would work on a toggle that shows the packages type and i want to create the three packages pages and their 
+    products cards. i pray God helps me.
+
+    still 10th july i was able to design the template for the three packages remaining the table diagram which i would do shortly
+    
+    i was able to design the table for account sizes and prices
+}
+
+11 July{
+    i started with the card design or should i say the responsive design of the tables and i finished 
+    which was very beautiful
+
+    replicated the design in the swift and evaluation page, ill try to work on the login and dash board connect 
+    all the links and begin to implement the php side of the website
+
+    this would require me to design the login and the signup options again.
+
+    also i would try to fix the sass and css file dependencies and start using my theme color
+}
+

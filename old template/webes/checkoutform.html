@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout|upchartfunding</title>
+    <link rel="stylesheet" href="/stylesheets/checkout.css">
+    <link rel="stylesheet" href="/stylesheets/header.css">
+    <link rel="stylesheet" href="/stylesheets/footer.css">
+        <script src="/js/script.js"></script>
+        <script src="/js/store.js" async></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4
+    =" crossorigin="anonymous"></script>
+   </head>
+<body>
+
+  <!--Landing begins-->
+  <div class="package_container">
+    <nav>
+        <img src="/images/Untitled-2.png" class="logo" >
+        <a href="index.html" type="logo"></a>
+        <ul>
+            <li><a href="/webes/Home.html">Home</a></li>
+            <li>
+              <button onclick="myFunction()" class="dropbtn">Packages</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="/account/swift.html">Swift</a>
+                <a href="/account/evaluation.html">Evaluation</a>
+                <a href="/account/free.html">Free Funding</a>
+              </div>
+          </li>
+        
+          <li><a href="/webes/signup.html">Login</a></li>
+          <li><a href="/webes/faq.html">FAQ</a></li>
+            
+        </ul>
+        <a href="#" class="btn">EN</a>
+        </nav>  
+       
+     
+       <div class="package_content">
+           <p class="package_content"><p>         
+       </div>
+      
+    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_6dac4"></div>
+  <div class="tradingview-widget-copyright"><a href="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "NASDAQ:AAPL",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_6dac4"
+}
+  );
+  </script>
+</div>
+</div>
+<br>
+<br>
+<!-- TradingView Widget END -->  
+
+
+<!--<div class="checkout">
+
+    <div class="col-75">
+      <div class="checkoutcontainer">
+        <form action="/action_page.php">
+  
+          <div class="checkout">
+            <div class="col-50">
+              <h3>Billing Address</h3>
+              <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="john@example.com">
+              <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+              <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+              <label for="city"><i class="fa fa-institution"></i> City</label>
+              <input type="text" id="city" name="city" placeholder="New York">
+  
+              <div class="checkout">
+                <div class="col-50">
+                  <label for="state">State</label>
+                  <input type="text" id="state" name="state" placeholder="NY">
+                </div>
+                <div class="col-50">
+                  <label for="zip">Zip</label>
+                  <input type="text" id="zip" name="zip" placeholder="10001">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-50">
+              <h3>Payment</h3>
+              <label for="fname">Accepted Cards</label>
+              <div class="icon-container">
+                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                <i class="fa fa-cc-discover" style="color:orange;"></i>
+              </div>
+              <label for="cname">Name on Card</label>
+              <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+              <label for="ccnum">Credit card number</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+              <label for="expmonth">Exp Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September">
+  
+              <div class="checkout">
+                <div class="col-50">
+                  <label for="expyear">Exp Year</label>
+                  <input tpe="text" id="expyear" name="expyear" placeholder="2018">
+                </div>
+                <div class="col-50">
+                  <label for="cvv">CVV</label>
+                  <input type="text" id="cvv" name="cvv" placeholder="352">
+                </div>
+              </div>
+            </div>
+  
+          </div>
+          <label>
+            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+          </label>
+          <input type="submit" value="Continue to checkout"
+          class="checkerbtn">
+        </form>
+      </div>
+    </div>
+  -->
+  <div class="carttable">
+    <table class="cartitemTable" id="cartitemTable">
+      <tr class="carttableheader tablerow" >
+        <th>Account package</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+
+      <tr class="tablerow" id="tablerow">
+        <td class="packageTitle">Evaluation-Synthetic $3,000</td>
+        <td class="cartPrice">$33</td>
+        <td class="quant"><input class="cartQuantity" type="number" value="1">
+          <button class="remBtn" type="button">REMOVE</button></td>
+          </tr>
+      
+      <tr class="tablerow" id="tablerow">
+        <td class="packagetitle">Evaluation-Synthetic $5,000</td>
+
+        <td class="cartPrice">$54</td>
+
+        <td class="quant"><input class="cartQuantity" type="number" value="1">
+            <button class="remBtn" type="button">REMOVE</button>
+              </td>
+        </tr>
+      <tr class="tablerow totalrow" id="tablerow">
+        <td>Total</td> 
+        <td colspan="2" class="cartTotal">$33</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td colspan="3" align="center" class="purBtn">
+          <button class="btn" type="button">Purchase</button>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+    </table>
+  </div>
+  <!--<div class="cartcontainer">
+    <br><br>
+     <h2 class="section-header" align="center">CART</h2>
+    <br>
+       <div class=cart-row>
+          <span class="cart-item cart-header cart-column">
+            <span class="cart-col-title cart-item cart-header cart-column">ACCOUNT PACKAGE</span>
+            <span class="cart-col-title cart-header cart-column">PRICE</span>
+            <span class="cart-col-title cart-quantity
+            cart-header cart-column">
+            QUANTITY
+          </span>
+          </span>
+          </div>
+
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+            <span class="cart-item-title">Evaluation-Synthetic $3,000</span>
+            </div>
+            <span class="cart-price cart-column">$33</span>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="checkerbtn btn-danger" type="button">REMOVE</button>
+            </div>
+        </div>
+
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+            <span class="cart-item-title">Evaluation-Synthetic $5,000</span>
+            </div>
+            <span class="cart-price cart-column">$54</span>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="2">
+                <button class="checkerbtn btn-danger" 
+                type="button">REMOVE</button>
+            </div>
+        </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$39.97</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</div>-->
+</body>
+</html>
